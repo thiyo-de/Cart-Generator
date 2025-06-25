@@ -3,65 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Cart Generator</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="gen">
-      <h1>Cart Generator</h1>
-      <input id="productImg" placeholder="Product Image Url" required type="text" />
-
-      <input id="productTitle" placeholder="Product Title" maxlength="20" required type="text" />
-
-      <input id="productInfo" placeholder="Product Detail" maxlength="100" type="text" />
-
-      <input id="ProductPrice" placeholder="Product Price" type="number" />
-
-      <button id="genBtn">Generate</button>
+    <div class="container">
+      <div class="form">
+        <h1>Cart Generator</h1>
+        <input id="productImg" placeholder="Product Image URL" required type="text" />
+        <input id="productTitle" placeholder="Product Title" maxlength="20" required type="text" />
+        <input id="productInfo" placeholder="Product Detail" maxlength="100" type="text" />
+        <input id="ProductPrice" placeholder="Product Price" type="number" />
+        <button id="genBtn">Generate</button>
+      </div>
+      <div class="carts" id="cartsDiv"></div>
     </div>
-
-    <!-- <div class="carts">
-
-      <div class="cart">
-        <img
-          src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/if_w_gt_800,w_800/ss25_anthony_edwards_1_metal_gray_launch_hp_tc_d_cc639b5e32.jpg"
-          alt=""
-        />
-        <h3>Shoes</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-          reiciendis et nihil minus veritatis ex.
-        </p>
-        <div class="addCart">
-          <h4>$100</h4>
-          <div class="incre">
-            <button>-</button>
-            <span>0</span>
-            <button>+</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="cart">
-        <img
-          src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/if_w_gt_800,w_800/ss25_anthony_edwards_1_metal_gray_launch_hp_tc_d_cc639b5e32.jpg"
-          alt=""
-        />
-        <h3>Shoes</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur 
-        </p>
-        <div class="addCart">
-          <h4>$100</h4>
-          <div class="incre">
-            <button>-</button>
-            <span>0</span>
-            <button>+</button>
-          </div>
-        </div>
-      </div>
-
-    </div> -->
 
     <script src="script.js"></script>
   </body>
